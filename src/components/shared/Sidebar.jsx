@@ -1,12 +1,14 @@
-import { Link } from "react-router-dom";
 import { useCallback, useState } from "react";
+import { Link } from "react-router-dom";
 import { sidebarItems } from "../../utils/data";
 import dashboardIcon from "../../assets/icons/sidebar/dashboard-square-01.png";
-import SidebarFooter from "../sidebar/SidebarFooter";
-import SidebarHeader from "../sidebar/SidebarHeader";
+import {
+  SidebarItem,
+  SidebarFooter,
+  SidebarHeader,
+  CollabseButton,
+} from "../sidebar";
 
-import CollabseButton from "../sidebar/CollabseButton";
-import { SidebarItem } from "../sidebar";
 
 const Sidebar = () => {
   const mainItem = { icon: dashboardIcon, text: "لوحة المعلومات" };
