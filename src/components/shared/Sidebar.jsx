@@ -2,12 +2,10 @@ import { useCallback, useState } from "react";
 import { Link } from "react-router-dom";
 import { sidebarItems } from "../../utils/data";
 import dashboardIcon from "../../assets/icons/sidebar/dashboard-square-01.png";
-import {
-  SidebarItem,
-  SidebarFooter,
-  SidebarHeader,
-  CollabseButton,
-} from "../sidebar";
+import SidebarHeader from "../sidebar/SidebarHeader"
+import SidebarItem from "../sidebar/SidebarItem";
+import SidebarFooter from "../sidebar/SidebarFooter";
+import CollabseButton from "../sidebar/CollabseButton";
 
 
 const Sidebar = () => {
