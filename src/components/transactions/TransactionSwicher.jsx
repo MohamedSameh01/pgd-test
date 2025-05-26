@@ -15,7 +15,7 @@ const TransactionSwicher = ({
           onClick={handleSwichOrdenary}
           className={`${
             selectedDataString === "ordenaryData" ? activeOne : noneActive
-          } px-8 py-2  font-bold border-none rounded-xl focus:outline-none text-lg`}
+          } px-8 py-2 sm:text-lg text-base  font-bold border-none rounded-xl focus:outline-none`}
         >
           المعاملات العادية
         </button>
@@ -23,7 +23,7 @@ const TransactionSwicher = ({
           onClick={handleSwichSecret}
           className={`${
             selectedDataString === "secretData" ? activeOne : noneActive
-          } px-8 py-2  font-bold border-none rounded-xl focus:outline-none text-lg`}
+          } px-8 py-2 sm:text-lg text-base  font-bold border-none rounded-xl focus:outline-none `}
         >
           المعاملات السرية
         </button>
